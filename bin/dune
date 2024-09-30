@@ -1,0 +1,6 @@
+(executable
+ (public_name serde_list_repro)
+ (name main)
+ (libraries serde_list_repro serde serde_json yojson ppx_deriving)
+ (preprocess
+ (pps serde_derive ppx_yojson_conv)))

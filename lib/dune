@@ -1,0 +1,2 @@
+(library
+ (name serde_list_repro))
